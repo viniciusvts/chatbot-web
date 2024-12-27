@@ -2,8 +2,8 @@
   import ChatBaloon from "@/components/ChatBaloon.vue";
 </script>
 <template>
-  <div class="bg-body-secondary">
-    <div class="container bg-body-secondary h-100">
+  <div class="container bg-body-secondary">
+    <div class="row">
       <ChatBaloon v-for="(msg, index) in messages"
         :key="index"
         :chatMessage="msg"
